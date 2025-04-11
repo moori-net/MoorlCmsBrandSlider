@@ -1,7 +1,7 @@
 {
     "name": "moorl/moorl-cms-brand-slider",
     "description": "CMS Element - Brand Slider",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "license": "proprietary",
     "authors": [
         {
@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "shopware/core": "~6.6.6",
-        "moorl/foundation": "~1.6.50"
+        "shopware/core": "6.7.*",
+        "moorl/foundation": "1.7.*"
     },
     "type": "shopware-platform-plugin",
     "autoload": {
