@@ -9,10 +9,11 @@
         }
     ],
     "require": {
-        "shopware/core": "6.7.*",
+        "shopware/core": "~6.7.0",
         "moorl/foundation": "1.7.*"
     },
     "type": "shopware-platform-plugin",
+"minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "MoorlCmsBrandSlider\\": "src/"
