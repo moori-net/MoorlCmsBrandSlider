@@ -56,14 +56,14 @@ class MoorlCmsBrandSlider extends Plugin
 
         foreach (self::PLUGIN_TABLES as $table) {
             $sql = sprintf('SET FOREIGN_KEY_CHECKS=0; DROP TABLE IF EXISTS `%s`;', $table);
-            $connection->executeUpdate($sql);
+            $connection->executeStatement($sql);
         }
 
         foreach (array_reverse(self::SHOPWARE_TABLES) as $table) {
             $sql = sprintf("SET FOREIGN_KEY_CHECKS=0; DELETE FROM `%s` WHERE `created_at` = '%s';", $table, self::DATA_CREATED_AT);
 
             try {
-                $connection->executeUpdate($sql);
+                $connection->executeStatement($sql);
             } catch (\Exception) {
                 continue;
             }
