@@ -1,6 +1,4 @@
-const {Component} = Shopware;
-
-Component.extend(
+Shopware.Component.extend(
     'sw-cms-el-preview-moorl-brand-slider-v2',
     'sw-cms-el-preview-moorl-foundation-listing',
     {
