@@ -1,5 +1,5 @@
 setTimeout(() => {
-    const cmsElementConfig = MoorlFoundation.CmsElementHelper.getCmsElementConfig({
+    MoorlFoundation.CmsElementHelper.registerCmsElement({
         name: 'moorl-brand-slider-v2',
         parent: 'listing',
         plugin: 'MoorlCmsBrandSlider',
@@ -38,5 +38,5 @@ setTimeout(() => {
         }
     });
 
-    Shopware.Application.getContainer('service').cmsService.registerCmsElement(cmsElementConfig);
+
 }, 100);
