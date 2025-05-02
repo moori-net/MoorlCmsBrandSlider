@@ -8,6 +8,8 @@ function onMoorlFoundationReady(callback) {
 
 onMoorlFoundationReady(() => {
     MoorlFoundation.ModuleHelper.registerModule({
+        pluginName: 'MoorlCmsBrandSlider',
+        entity: 'product_manufacturer',
         cmsElements: [
             {
                 name: 'moorl-brand-slider-v2',
