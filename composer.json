@@ -1,7 +1,7 @@
 {
     "name": "moorl/moorl-cms-brand-slider",
     "description": "CMS Element - Brand Slider",
-    "version": "1.4.5",
+    "version": "1.7.1",
     "license": "proprietary",
     "authors": [
         {
@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "shopware/core": "6.4.*",
-        "moorl/foundation": "1.4.*"
+        "shopware/core": "~6.7.0",
+        "moorl/foundation": "1.7.*"
     },
     "type": "shopware-platform-plugin",
     "autoload": {
@@ -26,8 +26,8 @@
             "en-GB": "CMS Element - Brand Slider"
         },
         "description": {
-            "de-DE": "CMS Element - Brand Slider",
-            "en-GB": "CMS Element - Brand Slider"
+            "de-DE": "Dieses Plugin ermöglicht es, die Logos Ihrer Hersteller als Slider in den Erlebniswelten abzubilden. Bei Klick auf den Link werden Sie auf die Seite des Herstellers weitergeleitet.",
+            "en-GB": "This plugin allows you to display the logos of your manufacturers as sliders in the shopping worlds. By clicking on the link you will be redirected to the manufacturer's website."
         },
         "manufacturerLink": {
             "de-DE": "https://docs.moori.net/",
