@@ -1,0 +1,23 @@
+{
+  "base": "/bundles/moorlcmsbrandslider/administration/",
+  "entryPoints": {
+    "moorl-cms-brand-slider": {
+      "css": [],
+      "dynamic": [],
+      "js": [
+        "/bundles/moorlcmsbrandslider/administration/assets/moorl-cms-brand-slider-Do4DRTIi.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}
